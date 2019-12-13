@@ -1,0 +1,23 @@
+[
+    {
+        "name": "<b>Fortbyte 1</b><br>",
+        "descriptionText": "FOUND IN FROZEN LAKE<br>",
+        "descriptionImage": "<img src='https://static.pexels.com/photos/189349/pexels-photo-189349.jpeg' height='150px' width='150px'/>",
+        "descriptionYoutube": "<br>Youtube link: <a href='http://www.google.com'>Watch here!</a>",
+        "cordinates": {
+            "x": -114,
+            "y": 65
+        }
+    },
+
+    {
+        "name": "<b>Fortbyte 2</b><br>",
+        "descriptionText": "FOUND IN FROZEN LAKE<br>",
+        "descriptionImage": "<img src='https://static.pexels.com/photos/189349/pexels-photo-189349.jpeg' height='150px' width='150px'/>",
+        "descriptionYoutube": "<br>Youtube link: <a href='http://www.google.com'>Watch here!</a>",
+        "cordinates": {
+            "x": -163,
+            "y": 65
+        }
+    }
+]

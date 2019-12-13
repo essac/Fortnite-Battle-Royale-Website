@@ -1,0 +1,22 @@
+[
+    {
+        "name": "<b>Weekly 1</b><br>",
+        "descriptionText": "FOUND IN FROZEN LAKE<br>",
+        "descriptionImage": "<img src='https://static.pexels.com/photos/189349/pexels-photo-189349.jpeg' height='150px' width='150px'/>",
+        "descriptionYoutube": "<br>Youtube link: <a href='http://www.google.com'>Watch here!</a>",
+        "cordinates": {
+            "x": -199,
+            "y": 70
+        }
+    },
+    {
+        "name": "<b>Weekly 2</b><br>",
+        "descriptionText": "FOUND IN FROZEN LAKE<br>",
+        "descriptionImage": "<img src='https://static.pexels.com/photos/189349/pexels-photo-189349.jpeg' height='150px' width='150px'/>",
+        "descriptionYoutube": "<br>Youtube link: <a href='http://www.google.com'>Watch here!</a>",
+        "cordinates": {
+            "x": -200,
+            "y": 90
+        }
+    }
+]

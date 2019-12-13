@@ -1,0 +1,286 @@
+html {
+  background: #f2f2f2;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #202124;
+  margin: 0;
+}
+
+/*Title Styles*/
+.title {
+  font-family: 'Bungee', cursive;
+  font-size: 1.5em;
+  margin-top: -2em;
+  padding: 0;
+  color: #202124;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #202124;
+  overflow: hidden;
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f2f2f2;
+  color: #202124;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f2f2f2;
+  color: #f2f2f2;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.navbar_active{
+    background-color: #100c08;
+  }
+
+.footer {
+  font-family: "Quicksand", sans-serif;
+  display: flexbox;
+  font-size: 0.6rem;
+  color: #999999;
+  text-align: center;
+}
+
+/*Map Styling*/
+#image-map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #ff2052;
+}
+
+.map-title {
+  font-family: 'Quicksand';
+  width: 70%;
+  color: #f2f2f2;
+  background: #ff2052;
+  font-size: 18px;
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: 20px auto 0px auto;
+}
+
+.parentmapContainer{
+  position: relative;
+  min-height: 100vh;
+  width: 70%;
+  margin: 0px auto 20px auto;
+}
+
+h3.tagline {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 0.99em;
+  margin-top: -4em;
+  padding: 0;
+  color: #777;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+/*Announcement Box*/
+.announcement {
+width: 100%;
+background: #8ae600 ;
+color: #202124;
+font-family: "Quicksand", sans-serif;
+font-size: 0.8em;
+margin-bottom: px;
+}
+
+.announcement a { 
+  color: #202124; 
+}
+
+.announcement a:hover {
+  color: #202124;
+}
+
+.announcement p {
+  margin: 0;
+  padding: 10px;
+}
+
+/*Twitter*/
+.twitter-follow-button{
+  vertical-align:middle !important;
+  display: inline;
+  float: none;
+  position: absolute;
+  text-align: center;
+  padding: 14px 16px;   
+}
+
+/*Facebook*/
+.fb-like{
+  vertical-align:middle !important;
+  display: inline;
+  float: none;
+  position: absolute;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/*Clock*/
+#clock {
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8em;
+  color: #202124;
+}
+
+.leaflet-control-layers-group-name {
+      font-weight: bold;
+      font-size: 1em;
+      margin-bottom: .2em;
+      display: block;
+      font-family: "Quicksand", sans-serif;
+    }
+
+    .leaflet-control-layers-group {
+      margin-bottom: .5em;
+      font-family: "Quicksand", sans-serif;
+    }
+
+    .leaflet-control-layers-group label {
+      font-size: 1em;
+      font-family: "Quicksand", sans-serif;
+      padding-left: .5em;
+    }
+
+    /*Item Shop Rarity*/
+    .rarity-fine {
+      background-image: radial-gradient(50% 49%, rgb(255, 155, 98) 50%, rgb(197, 102, 47) 100%);
+    }
+    .rarity-quality {
+      background-image: radial-gradient(50% 100%, rgb(177, 81, 215) 50%, rgb(146, 40, 187) 100%);
+    }
+    .rarity-sturdy {
+      background-image: radial-gradient(50% 100%, rgb(49, 176, 236) 51%, rgb(24, 130, 196) 100%);
+    }
+    .rarity-handmade {
+      background-image: radial-gradient(50% 100%, rgb(72, 190, 41) 51%, rgb(38, 148, 19) 100%);
+    }
+    .rarity-rare{
+      background-image: radial-gradient(50% 100%, rgb(49, 176, 236) 51%, rgb(24, 130, 196) 100%);
+    }
+    a {
+      color: #e3e3e3;
+    }
+
+    .shop-title {
+      font-family: 'Quicksand';
+      width: 100%;
+      color: #f2f2f2;
+      background: #ff2052;
+      font-size: 18px;
+      display: flex;
+      margin-top: 20px;
+      padding: 5px;
+      box-sizing: border-box;
+      justify-content: center;
+    }
+
+    .shop-body {
+      font-family: 'Quicksand';
+      margin-bottom: 20px;
+      padding:10px;
+      background: rgba(0,	0,0,0.1);
+    }
+
+  .shop-body ul {
+    list-style: none;
+    margin: 0;
+    text-align:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+
+  .shop-body__item {
+    border:2px solid #f2f2f2;
+    display:inline-block;
+    max-width:170px;
+    margin-bottom:20px;
+    width: 100%;
+  }
+
+  .shop-body__item img {
+    width:100%;
+    display:block;
+  }
+
+  .shop-container {
+    display:flex;
+  }
+
+  .shop-container__wrapper {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 1100px) {
+    .shop-container {
+      flex-direction: column;
+     }
+     .shop-container__wrapper {
+       width: 100%;
+     }
+  }
