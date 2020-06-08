@@ -1,2 +1,5 @@
-# Fortnite-Battle-Royale-Website
-A Fortnite Battle Royale site including an interactive map for  challenges and Item shop updates.
+## Fortnite Battle Royale Website
+
+A Fortnite Battle Royale project with an interactive map for challenges & daily item-shop updates.
+
+<img src="screenshot/screenshot.png" width="1000">
